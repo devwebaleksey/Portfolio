@@ -10,6 +10,8 @@ body{
     font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
     color: black;
+    background-color: #cccccc;
+    background: url("../img/bg.png") ;
 }
 h1,h2,h3,h4.h5,h6{
     margin: 0, 0, 1 rem;
@@ -51,6 +53,7 @@ h1,h2,h3,h4.h5,h6{
     color: var(--black);
     font-weight: bold;
     margin-bottom: 3px;
+    font-family: Azonix;
 }
 .user-prof {
     font-size: 0.75rem;
@@ -97,6 +100,7 @@ h1,h2,h3,h4.h5,h6{
     font-weight: bold;
     font-size: 3rem;
     margin-bottom: 5px;
+    font-family: Azonix;
 }
 .intro-text {
     color: var(--black);
@@ -107,6 +111,10 @@ h1,h2,h3,h4.h5,h6{
     margin-top: 2rem;
     margin-bottom: 2.5rem;
     display: flex;
+}
+.work-link{
+    margin-right: 0.75rem;
+    text-decoration: none;
 }
 .social_link {
     margin-right: 0.75rem;
@@ -151,6 +159,7 @@ h1,h2,h3,h4.h5,h6{
     font-size: 2.8rem;
     color: var(--black);
     font-weight: bold;
+    font-family: Azonix;
 }
 .works{
     margin-bottom: 7rem;
@@ -171,6 +180,7 @@ h1,h2,h3,h4.h5,h6{
 }
 .work-content{
     padding: 1rem 0.8rem;
+    background-color: #cccccc;
 }
 .work-cat{
     font-size: 0.75rem;
@@ -195,7 +205,12 @@ h1,h2,h3,h4.h5,h6{
 }
 .abote-photo{
     max-width: 50%;
-    padding-left: 3.5rem;
+    margin-top: 1rem;
+    margin-left: 3.5rem;
+    /* top: -2rem; */
+    /* padding-top: 3rem; */
+    /* padding-left: 3.5rem; */
+    border-radius: 10px 10px 10px;
 }
 .aboute-content {
     width: 50%;
@@ -209,13 +224,15 @@ h1,h2,h3,h4.h5,h6{
     color: var(--black);
     font-weight: bold;
     text-transform: uppercase;
+    font-family: Azonix;
 
 }
 .about-bigtitle {
     font-size: 5.2rem;
     font-weight: bold;
-    color: var(--grey);
+    color: #b99e2ee3;
     text-transform: uppercase;
+    font-family: Azonix;
 
 }
 .about-text {
@@ -224,7 +241,8 @@ h1,h2,h3,h4.h5,h6{
 
     font-size: 0.75rem;
     font-weight: 300;
-    color: var(--grey);
+    color: var(--black);
+    font-family: Azonix;
 }
 .reviews {
     background: url("/img/rew.png") center no-repeat;
@@ -373,6 +391,7 @@ h1,h2,h3,h4.h5,h6{
     }
     .work-foto{
         width: 100%;
+        height: 100%;
     }
     .work-cat {
         font-size: 1.2rem;
